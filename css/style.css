@@ -1,0 +1,93 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+*{
+  letter-spacing: -1.5
+}
+h1{
+  font-weight: light;
+  font-size: 95px;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+.show-servecies{
+  padding:70px;
+}
+.sidenav-trigger {
+
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+.parallax{
+  opacity: .2;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+.sidebar-item{
+  border-bottom: #26a69a 1px solid
+}
+.card-image{
+  height: 100px;
+}
+.card-image img{
+  height: 100px;
+}
+.card-content{
+  height: 250px;
+}
+.page-heading{
+  margin:100px 0 250px 0;
+}
+h5{
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 0px
+}
+.overline{
+  font-size: 10px;
+  letter-spacing: 1.5
+}
