@@ -15,6 +15,11 @@ h1{
 nav ul a,
 nav .brand-logo {
   color: #444;
+
+}
+.brand-logo{
+  width:200px;
+  height: 200px;
 }
 
 p {
